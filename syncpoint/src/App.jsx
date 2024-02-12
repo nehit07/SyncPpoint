@@ -12,9 +12,8 @@ function App() {
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia,
         voluptatem, obcaecati consectetur similique, aspernatur qui deleniti
         illum dolorem ab voluptas. Architecto est suscipit dolore amet
-        voluptatum! Vero aliquid nisi deleniti quibusdam? Hello From Nehit
-
-        And hellow from Everyone
+        voluptatum! Vero aliquid nisi deleniti quibusdam? Hello From Nehit And
+        hellow from Everyone hhahahahahahahahahhahahahaha
       </p>
     </>
   );
