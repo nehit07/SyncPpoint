@@ -1,20 +1,23 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
+import Profile from "./components/Profile";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum quia,
-        voluptatem, obcaecati consectetur similique, aspernatur qui deleniti
-        illum dolorem ab voluptas. Architecto est suscipit dolore amet
-        voluptatum! Vero aliquid nisi deleniti quibusdam? Hello From Nehit And
-        hellow from Everyone hhahahahahahahahahhahahahaha Yash Ghoda
-      </p>
+      <Navbar></Navbar>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
     </>
   );
 }
