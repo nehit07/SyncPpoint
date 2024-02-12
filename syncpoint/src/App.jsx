@@ -13,6 +13,8 @@ function App() {
         voluptatem, obcaecati consectetur similique, aspernatur qui deleniti
         illum dolorem ab voluptas. Architecto est suscipit dolore amet
         voluptatum! Vero aliquid nisi deleniti quibusdam? Hello From Nehit
+
+        And hellow from Everyone
       </p>
     </>
   );
